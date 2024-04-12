@@ -1,0 +1,65 @@
+.github-profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: #f6f8fa;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  .user-profile img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .user-details {
+    padding: 20px;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  
+  .user-details p:first-child {
+    margin-top: 0;
+  }
+  
+  .user-details p:last-child {
+    margin-bottom: 0;
+  }
+  

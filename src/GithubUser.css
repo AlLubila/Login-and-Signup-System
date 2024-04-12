@@ -1,0 +1,32 @@
+.user-profile {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  .user-profile img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .user-details {
+    padding: 20px;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  
+  .user-details p:first-child {
+    margin-top: 0;
+  }
+  
+  .user-details p:last-child {
+    margin-bottom: 0;
+  }
+  
